@@ -5,6 +5,12 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 /** Fisher–Yates 셔플 (원본을 건드리지 않는다) */
+/** 판 기록처럼 기기에서 만들어 클라우드까지 따라가는 id */
+export function uid(): string {
+  if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) return crypto.randomUUID()
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`
+}
+
 export function shuffle<T>(items: readonly T[], rand: () => number = Math.random): T[] {
   const out = items.slice()
   for (let i = out.length - 1; i > 0; i--) {

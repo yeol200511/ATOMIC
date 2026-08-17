@@ -30,7 +30,11 @@ jobs:
       - run: npm ci
 
       # tsc --noEmit 후 Vite 빌드 (PWA 서비스워커 포함)
+      # Supabase 값이 secret 에 없으면 계정 기능만 빠진 채로 정상 빌드된다.
       - run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
 
       - uses: actions/configure-pages@v5
 

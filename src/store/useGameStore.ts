@@ -17,6 +17,7 @@ import {
   kindForMode,
 } from '@/lib/quiz'
 import { scoreFor, timeLimitFor } from '@/lib/scoring'
+import { pushAfterRun } from '@/lib/sync'
 import { useProgressStore, type RunOutcome } from './useProgressStore'
 
 /** 무한모드에서 미리 만들어 두는 문제 수 */
@@ -303,6 +304,13 @@ export const useGameStore = create<GameState>()((set, get) => ({
 
     if (outcome?.leveledUp) {
       window.setTimeout(() => audio.play('levelup'), 700)
+    }
+
+    // 로그인해 뒀으면 이번 판을 클라우드에 올린다. 실패해도 로컬에는 이미 남아 있고
+    // 다음 판이나 재접속 때 다시 올라가므로 결과 화면을 붙잡지 않는다.
+    if (outcome) {
+      const justPlayed = useProgressStore.getState().history[0]
+      if (justPlayed) void pushAfterRun(justPlayed)
     }
 
     set({ status: 'finished', feedback: null, outcome, finishedAt })

@@ -13,6 +13,7 @@ interface UiState {
   settingsOpen: boolean
   shortcutsOpen: boolean
   configOpen: boolean
+  accountOpen: boolean
   detailNumber: number | null
   toasts: Toast[]
 
@@ -23,6 +24,8 @@ interface UiState {
   closeShortcuts: () => void
   openConfig: () => void
   closeConfig: () => void
+  openAccount: () => void
+  closeAccount: () => void
   showDetail: (elementNumber: number | null) => void
   pushToast: (toast: Omit<Toast, 'id'>) => void
   dismissToast: (id: number) => void
@@ -35,6 +38,7 @@ export const useUiStore = create<UiState>()((set) => ({
   settingsOpen: false,
   shortcutsOpen: false,
   configOpen: false,
+  accountOpen: false,
   detailNumber: null,
   toasts: [],
 
@@ -45,6 +49,8 @@ export const useUiStore = create<UiState>()((set) => ({
   closeShortcuts: () => set({ shortcutsOpen: false }),
   openConfig: () => set({ configOpen: true }),
   closeConfig: () => set({ configOpen: false }),
+  openAccount: () => set({ accountOpen: true }),
+  closeAccount: () => set({ accountOpen: false }),
   showDetail: (detailNumber) => set({ detailNumber }),
 
   pushToast: (toast) => {

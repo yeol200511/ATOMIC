@@ -2,8 +2,10 @@ import { motion } from 'framer-motion'
 import type { View } from '@/types'
 import { levelInfo, levelTitle } from '@/lib/scoring'
 import { cn } from '@/lib/utils'
+import { useAuthStore } from '@/store/useAuthStore'
 import { useProgressStore } from '@/store/useProgressStore'
 import { useUiStore } from '@/store/useUiStore'
+import { authEnabled } from '@/lib/supabase'
 import { Button } from '@/components/ui/Button'
 import { ProgressBar } from '@/components/ui/ProgressBar'
 
@@ -19,6 +21,9 @@ export function TopBar() {
   const view = useUiStore((s) => s.view)
   const setView = useUiStore((s) => s.setView)
   const openSettings = useUiStore((s) => s.openSettings)
+  const openAccount = useUiStore((s) => s.openAccount)
+  const user = useAuthStore((s) => s.user)
+  const sync = useAuthStore((s) => s.sync)
   const xp = useProgressStore((s) => s.xp)
   const info = levelInfo(xp)
 
@@ -83,6 +88,24 @@ export function TopBar() {
         >
           {info.level}
         </motion.div>
+
+        {authEnabled && (
+          <Button
+            size="sm"
+            onClick={openAccount}
+            className="shrink-0"
+            aria-label={user ? '계정' : '로그인'}
+          >
+            {user ? '👤' : '🔑'}
+            <span className="hidden lg:inline">{user ? '계정' : '로그인'}</span>
+            {user && sync === 'syncing' && (
+              <span className="ml-1 inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-sky-300" />
+            )}
+            {user && (sync === 'offline' || sync === 'error') && (
+              <span className="ml-1 inline-block h-1.5 w-1.5 rounded-full bg-amber-400" />
+            )}
+          </Button>
+        )}
 
         <Button size="sm" onClick={openSettings} className="shrink-0" aria-label="설정 열기">
           ⚙︎<span className="hidden lg:inline">설정</span>

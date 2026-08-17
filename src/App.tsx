@@ -1,7 +1,9 @@
 import { useEffect } from 'react'
 import { motion, MotionConfig } from 'framer-motion'
 import { audio } from '@/lib/audio'
+import { pushPending, syncOnSignIn } from '@/lib/sync'
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts'
+import { useAuthStore } from '@/store/useAuthStore'
 import { useSettingsStore } from '@/store/useSettingsStore'
 import { useUiStore } from '@/store/useUiStore'
 import { TopBar } from '@/components/layout/TopBar'
@@ -14,6 +16,7 @@ import { StatsScreen } from '@/components/screens/StatsScreen'
 import { AchievementsScreen } from '@/components/screens/AchievementsScreen'
 import { SettingsModal } from '@/components/screens/SettingsModal'
 import { ShortcutsModal } from '@/components/screens/ShortcutsModal'
+import { AccountModal } from '@/components/account/AccountModal'
 import { ElementDetailModal } from '@/components/periodic/ElementDetailModal'
 import { ToastStack } from '@/components/ui/ToastStack'
 
@@ -32,6 +35,8 @@ export default function App() {
   const openShortcuts = useUiStore((s) => s.openShortcuts)
   const theme = useSettingsStore((s) => s.theme)
   const animations = useSettingsStore((s) => s.animations)
+  const initAuth = useAuthStore((s) => s.init)
+  const userId = useAuthStore((s) => s.user?.id ?? null)
 
   /* 테마 적용 */
   useEffect(() => {
@@ -58,6 +63,24 @@ export default function App() {
       window.removeEventListener('keydown', unlock)
     }
   }, [])
+
+  /* 세션 복구 — 지난번에 로그인해 뒀다면 그대로 이어간다 */
+  useEffect(() => {
+    initAuth()
+  }, [initAuth])
+
+  /* 로그인이 확인되면 클라우드와 한 번 맞춘다 */
+  useEffect(() => {
+    if (userId) void syncOnSignIn(userId)
+  }, [userId])
+
+  /* 오프라인에서 쌓인 기록은 연결이 돌아오면 밀어 올린다 */
+  useEffect(() => {
+    if (!userId) return
+    const onOnline = () => void pushPending()
+    window.addEventListener('online', onOnline)
+    return () => window.removeEventListener('online', onOnline)
+  }, [userId])
 
   useKeyboardShortcuts({
     '?': openShortcuts,
@@ -90,11 +113,13 @@ export default function App() {
         </main>
 
         <footer className="border-t px-4 py-4 text-center text-[11px] text-faint divider">
-          ATOMIC · 118개 원소 학습 게임 · 진행도는 이 브라우저에 저장됩니다
+          ATOMIC · 118개 원소 학습 게임 ·{' '}
+          {userId ? '진행도가 계정에 저장됩니다' : '진행도는 이 브라우저에 저장됩니다'}
         </footer>
 
         <SettingsModal />
         <ShortcutsModal />
+        <AccountModal />
         <ElementDetailModal />
         <ToastStack />
       </div>

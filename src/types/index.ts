@@ -116,6 +116,8 @@ export interface Feedback {
 /* ------------------------------ 진행도 ------------------------------ */
 
 export interface PlayRecord {
+  /** 판마다 기기에서 만드는 고유 id — 같은 판이 클라우드에 두 번 올라가는 것을 막는다 */
+  id: string
   at: number
   mode: QuizMode
   difficulty: Difficulty
@@ -126,6 +128,8 @@ export interface PlayRecord {
   maxCombo: number
   avgMs: number
   durationMs: number
+  /** 오답노트 복습 세션이었는지 */
+  review?: boolean
 }
 
 export interface WrongNote {

@@ -14,9 +14,13 @@ import { newlyUnlocked, type AchievementStats } from '@/lib/achievements'
 import { applyMissionProgress, generateDailyMissions, missionRewardXp } from '@/lib/missions'
 import { levelFromXp, xpForRun } from '@/lib/scoring'
 import { safeStorage, STORAGE_KEYS } from '@/lib/storage'
-import { percent, todayKey } from '@/lib/utils'
+import { percent, todayKey, uid } from '@/lib/utils'
 
-const HISTORY_LIMIT = 20
+/**
+ * 로컬에 들고 있는 판 기록 수. 클라우드에는 전부 남기고, 기기에는 최근 것만 캐시한다
+ * — LocalStorage 는 도메인당 5MB 남짓이라 무한히 쌓으면 언젠가 저장이 막힌다.
+ */
+const HISTORY_LIMIT = 500
 
 export interface RunSummary {
   mode: QuizMode
@@ -73,7 +77,28 @@ interface ProgressState {
   resetAll: () => void
   stats: () => AchievementStats
   level: () => number
+
+  /** 클라우드에 올릴 진행도 전체 — 액션을 뺀 데이터만 */
+  snapshot: () => ProgressSnapshot
+  /** 클라우드에서 받은 진행도로 통째로 갈아 끼운다 */
+  hydrate: (data: ProgressSnapshot) => void
 }
+
+/** 진행도 중 저장·동기화 대상이 되는 부분 */
+export type ProgressSnapshot = Omit<
+  ProgressState,
+  | 'ensureDaily'
+  | 'registerAnswer'
+  | 'recordRun'
+  | 'viewElement'
+  | 'removeWrongNote'
+  | 'clearWrongNotes'
+  | 'resetAll'
+  | 'stats'
+  | 'level'
+  | 'snapshot'
+  | 'hydrate'
+>
 
 const initialState = {
   xp: 0,
@@ -188,7 +213,9 @@ export const useProgressStore = create<ProgressState>()(
         const wasAllDone = missionsBefore.every((m: Mission) => m.done)
 
         const record: PlayRecord = {
+          id: uid(),
           at: Date.now(),
+          review: summary.review,
           mode: summary.mode,
           difficulty: summary.difficulty,
           length: summary.length,
@@ -274,6 +301,33 @@ export const useProgressStore = create<ProgressState>()(
 
       clearWrongNotes: () => set({ wrongNotes: {} }),
 
+      snapshot: () => {
+        const s = get()
+        return {
+          xp: s.xp,
+          playCount: s.playCount,
+          bestScore: s.bestScore,
+          bestCombo: s.bestCombo,
+          totalCorrect: s.totalCorrect,
+          totalWrong: s.totalWrong,
+          totalTimeMs: s.totalTimeMs,
+          perfectRuns: s.perfectRuns,
+          bestAccuracy: s.bestAccuracy,
+          bestAvgMs: s.bestAvgMs,
+          hardRuns: s.hardRuns,
+          bestEndless: s.bestEndless,
+          dailyCompletedDays: s.dailyCompletedDays,
+          modesPlayed: s.modesPlayed,
+          viewedElements: s.viewedElements,
+          history: s.history,
+          wrongNotes: s.wrongNotes,
+          achievements: s.achievements,
+          daily: s.daily,
+        }
+      },
+
+      hydrate: (data) => set({ ...data }),
+
       resetAll: () =>
         set({
           ...initialState,
@@ -283,7 +337,16 @@ export const useProgressStore = create<ProgressState>()(
     {
       name: STORAGE_KEYS.progress,
       storage: createJSONStorage(() => safeStorage),
-      version: 1,
+      version: 2,
+      // v1 판 기록에는 id 가 없다. 클라우드 중복 방지에 쓰이므로 올라올 때 채운다.
+      migrate: (persisted, version) => {
+        const state = persisted as Partial<ProgressSnapshot> | undefined
+        if (!state) return persisted as ProgressSnapshot
+        if (version < 2) {
+          state.history = (state.history ?? []).map((r) => (r.id ? r : { ...r, id: uid() }))
+        }
+        return state as ProgressSnapshot
+      },
       // 액션은 빼고 데이터만 저장한다
       partialize: (state) => ({
         xp: state.xp,
