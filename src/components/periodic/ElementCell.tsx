@@ -27,6 +27,14 @@ function ElementCellBase({
   const meta = CATEGORIES[element.category]
   const hidden = blank && state === 'default'
 
+  // 감춰진 칸은 이름을 읽어 주지 않는다 — 위치 맞추기 문제의 정답이 새어 나간다.
+  // 마우스 툴팁(title)은 어느 칸에서도 띄우지 않는다. 기호가 이미 보이고, 누르면 상세가 열린다.
+  const label = hidden
+    ? element.group === null
+      ? `${element.period}주기 빈 칸`
+      : `${element.period}주기 ${element.group}족 빈 칸`
+    : `${element.number}번 ${element.name}`
+
   const stateStyle: Record<CellState, string> = {
     default: '',
     correct: 'ring-2 ring-emerald-400 z-10',
@@ -49,8 +57,7 @@ function ElementCellBase({
       type="button"
       disabled={!interactive}
       onClick={() => onSelect?.(element)}
-      title={`${element.number} ${element.name} (${element.symbol})`}
-      aria-label={`${element.number}번 ${element.name}`}
+      aria-label={label}
       whileHover={interactive ? { scale: 1.14, zIndex: 20 } : undefined}
       whileTap={interactive ? { scale: 0.94 } : undefined}
       animate={
