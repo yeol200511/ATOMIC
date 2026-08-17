@@ -24,6 +24,8 @@ npm run preview    # 빌드 결과 미리보기 (http://localhost:4173/ATOMIC/)
 
 ## 배포
 
+**https://yeol200511.github.io/ATOMIC/**
+
 `main` 에 push 하면 `.github/workflows/deploy.yml` 이 타입 검사·빌드를 거쳐 GitHub Pages 에 올립니다. 저장소 설정의 **Settings → Pages → Source** 를 `GitHub Actions` 로 한 번 바꿔 두어야 동작합니다.
 
 서브경로 설정은 `vite.config.ts` 위쪽 `BASE` 한 곳에서 관리합니다. `base`·매니페스트 `start_url`·`scope`·`id`·`navigateFallback` 이 모두 이 값을 따라갑니다. 저장소 이름을 바꾸면 `BASE` 만 고치면 됩니다.

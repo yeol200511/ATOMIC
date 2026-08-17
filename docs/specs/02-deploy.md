@@ -2,7 +2,9 @@
 
 ATOMIC 을 실제 주소에 올려 휴대폰에서 설치해 쓸 수 있게 한다.
 
-**상태: 진행 중** — 호스팅은 **GitHub Pages 프로젝트 페이지**로 정했다(2026-08-17, 무열 결정). 서브경로 대응과 자동 배포 워크플로는 끝났고, 남은 것은 원격 저장소 생성·push·Pages 설정이다.
+**상태: 배포됨** — https://yeol200511.github.io/ATOMIC/ (2026-08-17 첫 배포 성공)
+
+호스팅은 **GitHub Pages 프로젝트 페이지**로 정했다(2026-08-17, 무열 결정). 저장소는 `yeol200511/ATOMIC` public. 실기기 점검만 남았다.
 
 ## 왜 필요한가
 
@@ -26,17 +28,30 @@ GitHub Pages 프로젝트 페이지는 `<계정>.github.io/ATOMIC/` 처럼 서�
 
 `.github/workflows/deploy.yml` — `main` 에 push 하면 Node 22 로 `npm ci` → `npm run build`(타입 검사 포함) 를 거쳐 `dist` 를 Pages 에 올린다. `workflow_dispatch` 로 손수 돌릴 수도 있다. 배포는 `concurrency: pages` 로 한 번에 하나만 돌고, 진행 중인 배포를 취소하지 않는다.
 
-## 남은 절차
+## 첫 배포 결과 (2026-08-17)
 
-1. GitHub 에 원격 저장소를 만든다 — 이름은 `ATOMIC` (`BASE` 값과 같아야 한다)
-2. `git remote add origin` 후 `main` 을 push 한다
-3. 저장소 **Settings → Pages → Source** 를 `GitHub Actions` 로 바꾼다
-4. 첫 배포가 끝나면 실제 휴대폰에서 점검한다
+저장소 `yeol200511/ATOMIC` (public) 을 만들어 push 했고, Pages 를 Actions 방식(`build_type: workflow`)으로 켰다. 워크플로는 build 20초 · deploy 8초로 끝났다.
+
+배포된 주소에서 실측한 응답:
+
+| 경로 | 응답 |
+| --- | --- |
+| `/ATOMIC/` | 200 `text/html` |
+| `/ATOMIC/manifest.webmanifest` | 200 `application/manifest+json` |
+| `/ATOMIC/sw.js` | 200 `application/javascript` |
+| `/ATOMIC/icon-192.png` | 200 `image/png` |
+| `/ATOMIC/favicon.svg` | 200 `image/svg+xml` |
+
+배포된 `index.html` 의 asset 참조가 모두 `/ATOMIC/...` 이고, 매니페스트의 `start_url`·`scope`·`id` 도 `/ATOMIC/` 로 나온다.
+
+Actions 로그에 Node 20 지원 종료 경고가 붙지만, 러너가 알아서 Node 24 로 돌려 배포는 정상이다. 나중에 각 action 의 상위 버전이 나오면 올린다.
 
 ## 완료 조건
 
-- [ ] 공개 주소로 접속해 게임이 돌아간다
-- [ ] 휴대폰 브라우저에서 "홈 화면에 추가" 가 뜨고 설치된다
-- [ ] 설치한 앱을 비행기 모드에서 켜도 게임이 돌아간다
-- [ ] 새 빌드를 올리면 `registerType: 'autoUpdate'` 로 갱신된다
-- [ ] LocalStorage 진행도가 재접속 후에도 남아 있다
+- [x] 공개 주소로 접속해 게임이 돌아간다 — HTTP 200, asset 경로 실측 확인
+- [x] 새 빌드를 올리면 자동 배포된다 — push 한 번으로 build·deploy 통과
+- [ ] 휴대폰 브라우저에서 "홈 화면에 추가" 가 뜨고 설치된다 — **미검증** (실기기 필요)
+- [ ] 설치한 앱을 비행기 모드에서 켜도 게임이 돌아간다 — **미검증** (실기기 필요)
+- [ ] LocalStorage 진행도가 재접속 후에도 남아 있다 — **미검증** (실기기 필요)
+
+아래 세 가지는 무열이 휴대폰으로 직접 확인해야 채울 수 있다. 서버 응답만으로는 설치 프롬프트·오프라인 동작을 증명할 수 없다.
