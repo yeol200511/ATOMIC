@@ -3,7 +3,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
+// GitHub Pages 프로젝트 페이지(<계정>.github.io/ATOMIC/)에 올리므로 서브경로를 기준으로 삼는다.
+// 개발·preview 서버도 같은 경로를 쓴다 — http://localhost:5173/ATOMIC/
+const BASE = '/ATOMIC/'
+
 export default defineConfig({
+  base: BASE,
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -19,8 +24,9 @@ export default defineConfig({
         short_name: 'ATOMIC',
         description: '118개 원소를 게임처럼 익히는 주기율표 학습 게임',
         lang: 'ko',
-        start_url: '/',
-        scope: '/',
+        start_url: BASE,
+        scope: BASE,
+        id: BASE,
         display: 'standalone',
         orientation: 'any',
         background_color: '#060b16',
@@ -35,7 +41,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         cleanupOutdatedCaches: true,
-        navigateFallback: 'index.html',
+        navigateFallback: `${BASE}index.html`,
       },
       devOptions: {
         enabled: false,

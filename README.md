@@ -6,10 +6,12 @@
 
 ```bash
 npm install
-npm run dev        # 개발 서버 (http://localhost:5173)
+npm run dev        # 개발 서버 (http://localhost:5173/ATOMIC/)
 npm run build      # 타입 검사 + 프로덕션 빌드
-npm run preview    # 빌드 결과 미리보기 (http://localhost:4173)
+npm run preview    # 빌드 결과 미리보기 (http://localhost:4173/ATOMIC/)
 ```
+
+주소 끝의 `/ATOMIC/` 은 오타가 아닙니다. GitHub Pages 프로젝트 페이지에 올리느라 서브경로를 기준으로 잡았고, 개발 서버도 배포와 같은 조건에서 확인하도록 같은 경로를 씁니다.
 
 | 스크립트 | 하는 일 |
 | --- | --- |
@@ -19,6 +21,12 @@ npm run preview    # 빌드 결과 미리보기 (http://localhost:4173)
 | `npm run typecheck` | 타입 검사만 |
 | `npm run gen:elements` | `src/data/elements.json` 재생성 |
 | `npm run gen:icons` | PWA 아이콘·파비콘 재생성 |
+
+## 배포
+
+`main` 에 push 하면 `.github/workflows/deploy.yml` 이 타입 검사·빌드를 거쳐 GitHub Pages 에 올립니다. 저장소 설정의 **Settings → Pages → Source** 를 `GitHub Actions` 로 한 번 바꿔 두어야 동작합니다.
+
+서브경로 설정은 `vite.config.ts` 위쪽 `BASE` 한 곳에서 관리합니다. `base`·매니페스트 `start_url`·`scope`·`id`·`navigateFallback` 이 모두 이 값을 따라갑니다. 저장소 이름을 바꾸면 `BASE` 만 고치면 됩니다.
 
 ## 게임 모드
 
