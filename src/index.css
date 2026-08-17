@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ *
+ * 색 토큰 — 다크가 기본, .light 에서만 밝은 값으로 덮어쓴다
+ * ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    --bg: #050a14;
+    --bg-glow-a: rgba(3, 105, 161, 0.28);
+    --bg-glow-b: rgba(14, 165, 233, 0.16);
+    --grid: rgba(125, 211, 252, 0.055);
+    --panel: rgba(13, 24, 45, 0.82);
+    --panel-solid: #0b1526;
+    --panel-soft: rgba(20, 35, 62, 0.6);
+    --border: rgba(96, 165, 250, 0.16);
+    --border-strong: rgba(125, 211, 252, 0.34);
+    --text: #e8f1ff;
+    --text-dim: #8ea6c8;
+    --text-faint: #61799c;
+    --accent: #2cbeff;
+    --accent-soft: rgba(44, 190, 255, 0.16);
+    --good: #34d399;
+    --bad: #fb7185;
+    color-scheme: dark;
+  }
+
+  html.light {
+    --bg: #eef4fb;
+    --bg-glow-a: rgba(56, 189, 248, 0.22);
+    --bg-glow-b: rgba(37, 99, 235, 0.1);
+    --grid: rgba(30, 64, 175, 0.06);
+    --panel: rgba(255, 255, 255, 0.86);
+    --panel-solid: #ffffff;
+    --panel-soft: rgba(226, 240, 255, 0.75);
+    --border: rgba(30, 64, 175, 0.14);
+    --border-strong: rgba(14, 116, 190, 0.35);
+    --text: #0d1b2f;
+    --text-dim: #4a637f;
+    --text-faint: #6b829d;
+    --accent: #0284c7;
+    --accent-soft: rgba(2, 132, 199, 0.12);
+    --good: #059669;
+    --bad: #e11d48;
+    color-scheme: light;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    margin: 0;
+    color: var(--text);
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(circle at 12% -10%, var(--bg-glow-a), transparent 45%),
+      radial-gradient(circle at 88% 0%, var(--bg-glow-b), transparent 40%),
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: auto, auto, 44px 44px, 44px 44px;
+    background-attachment: fixed;
+    overscroll-behavior: none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-strong);
+    border-radius: 9999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * 재사용 컴포넌트 클래스
+ * ------------------------------------------------------------------ */
+@layer components {
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    backdrop-filter: blur(14px);
+    @apply rounded-2xl shadow-panel;
+  }
+
+  .panel-soft {
+    background: var(--panel-soft);
+    border: 1px solid var(--border);
+    @apply rounded-xl;
+  }
+
+  .text-dim {
+    color: var(--text-dim);
+  }
+  .text-faint {
+    color: var(--text-faint);
+  }
+  .text-accent {
+    color: var(--accent);
+  }
+
+  .divider {
+    border-color: var(--border);
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 rounded-xl px-4 py-2.5
+           text-sm font-semibold transition-all duration-150 active:scale-[0.97]
+           disabled:cursor-not-allowed disabled:opacity-45 disabled:active:scale-100;
+  }
+
+  .btn-primary {
+    @apply btn text-white;
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+    box-shadow: 0 10px 30px -12px rgba(14, 165, 233, 0.9);
+  }
+  .btn-primary:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+
+  .btn-ghost {
+    @apply btn;
+    background: var(--panel-soft);
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    border-color: var(--border-strong);
+  }
+
+  .btn-danger {
+    @apply btn;
+    background: rgba(244, 63, 94, 0.14);
+    border: 1px solid rgba(244, 63, 94, 0.35);
+    color: #fb7185;
+  }
+
+  .input-lab {
+    @apply w-full rounded-xl px-4 py-3 text-base outline-none transition;
+    background: var(--panel-soft);
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+  .input-lab::placeholder {
+    color: var(--text-faint);
+  }
+  .input-lab:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .stat-tile {
+    @apply panel-soft flex flex-col gap-1 px-4 py-3;
+  }
+
+  .label-xs {
+    @apply text-[11px] font-semibold uppercase tracking-[0.14em];
+    color: var(--text-faint);
+  }
+
+  .num-display {
+    @apply font-mono tabular-nums;
+  }
+}
+
+@layer utilities {
+  .no-anim *,
+  .no-anim *::before,
+  .no-anim *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

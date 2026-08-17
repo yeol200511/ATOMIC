@@ -1,0 +1,9926 @@
+[
+  {
+    "number": 1,
+    "symbol": "H",
+    "name": "수소",
+    "nameEn": "Hydrogen",
+    "aliases": [],
+    "mass": 1.008,
+    "category": "nonmetal",
+    "state": "gas",
+    "period": 1,
+    "group": 1,
+    "row": 1,
+    "col": 1,
+    "electronConfig": "1s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      1
+    ],
+    "description": "우주에서 가장 많고 가장 가벼운 원소. 물과 대부분의 유기물에 들어 있다."
+  },
+  {
+    "number": 2,
+    "symbol": "He",
+    "name": "헬륨",
+    "nameEn": "Helium",
+    "aliases": [],
+    "mass": 4.0026,
+    "category": "noble",
+    "state": "gas",
+    "period": 1,
+    "group": 18,
+    "row": 1,
+    "col": 18,
+    "electronConfig": "1s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2
+    ],
+    "description": "두 번째로 가벼운 기체. 반응하지 않아 풍선과 극저온 냉각에 쓰인다."
+  },
+  {
+    "number": 3,
+    "symbol": "Li",
+    "name": "리튬",
+    "nameEn": "Lithium",
+    "aliases": [],
+    "mass": 6.94,
+    "category": "alkali",
+    "state": "solid",
+    "period": 2,
+    "group": 1,
+    "row": 2,
+    "col": 1,
+    "electronConfig": "1s² 2s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      1
+    ],
+    "description": "가장 가벼운 금속. 충전지의 핵심 재료다."
+  },
+  {
+    "number": 4,
+    "symbol": "Be",
+    "name": "베릴륨",
+    "nameEn": "Beryllium",
+    "aliases": [],
+    "mass": 9.0122,
+    "category": "alkaline",
+    "state": "solid",
+    "period": 2,
+    "group": 2,
+    "row": 2,
+    "col": 2,
+    "electronConfig": "1s² 2s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      2
+    ],
+    "description": "가볍고 단단한 금속. X선 창과 항공 부품에 쓰인다."
+  },
+  {
+    "number": 5,
+    "symbol": "B",
+    "name": "붕소",
+    "nameEn": "Boron",
+    "aliases": [],
+    "mass": 10.81,
+    "category": "metalloid",
+    "state": "solid",
+    "period": 2,
+    "group": 13,
+    "row": 2,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      3
+    ],
+    "description": "유리를 튼튼하게 만드는 준금속. 내열유리에 들어간다."
+  },
+  {
+    "number": 6,
+    "symbol": "C",
+    "name": "탄소",
+    "nameEn": "Carbon",
+    "aliases": [],
+    "mass": 12.011,
+    "category": "nonmetal",
+    "state": "solid",
+    "period": 2,
+    "group": 14,
+    "row": 2,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      4
+    ],
+    "description": "생명체를 이루는 뼈대 원소. 다이아몬드와 흑연이 모두 탄소다."
+  },
+  {
+    "number": 7,
+    "symbol": "N",
+    "name": "질소",
+    "nameEn": "Nitrogen",
+    "aliases": [],
+    "mass": 14.007,
+    "category": "nonmetal",
+    "state": "gas",
+    "period": 2,
+    "group": 15,
+    "row": 2,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p³",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 3
+      }
+    ],
+    "shells": [
+      2,
+      5
+    ],
+    "description": "공기의 약 78%를 차지한다. 질소 비료의 원료다."
+  },
+  {
+    "number": 8,
+    "symbol": "O",
+    "name": "산소",
+    "nameEn": "Oxygen",
+    "aliases": [],
+    "mass": 15.999,
+    "category": "nonmetal",
+    "state": "gas",
+    "period": 2,
+    "group": 16,
+    "row": 2,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁴",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 4
+      }
+    ],
+    "shells": [
+      2,
+      6
+    ],
+    "description": "호흡과 연소에 반드시 필요하다. 지각에서 가장 흔한 원소다."
+  },
+  {
+    "number": 9,
+    "symbol": "F",
+    "name": "플루오린",
+    "nameEn": "Fluorine",
+    "aliases": [
+      "불소"
+    ],
+    "mass": 18.998,
+    "category": "halogen",
+    "state": "gas",
+    "period": 2,
+    "group": 17,
+    "row": 2,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁵",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 5
+      }
+    ],
+    "shells": [
+      2,
+      7
+    ],
+    "description": "반응성이 가장 큰 원소. 치약의 충치 예방 성분이다."
+  },
+  {
+    "number": 10,
+    "symbol": "Ne",
+    "name": "네온",
+    "nameEn": "Neon",
+    "aliases": [],
+    "mass": 20.18,
+    "category": "noble",
+    "state": "gas",
+    "period": 2,
+    "group": 18,
+    "row": 2,
+    "col": 18,
+    "electronConfig": "1s² 2s² 2p⁶",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      }
+    ],
+    "shells": [
+      2,
+      8
+    ],
+    "description": "전기를 흘리면 붉은 주황빛을 낸다. 네온사인의 주인공이다."
+  },
+  {
+    "number": 11,
+    "symbol": "Na",
+    "name": "나트륨",
+    "nameEn": "Sodium",
+    "aliases": [
+      "소듐"
+    ],
+    "mass": 22.99,
+    "category": "alkali",
+    "state": "solid",
+    "period": 3,
+    "group": 1,
+    "row": 3,
+    "col": 1,
+    "electronConfig": "1s² 2s² 2p⁶ 3s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      1
+    ],
+    "description": "물에 넣으면 격렬히 반응한다. 소금(NaCl)의 절반이다."
+  },
+  {
+    "number": 12,
+    "symbol": "Mg",
+    "name": "마그네슘",
+    "nameEn": "Magnesium",
+    "aliases": [],
+    "mass": 24.305,
+    "category": "alkaline",
+    "state": "solid",
+    "period": 3,
+    "group": 2,
+    "row": 3,
+    "col": 2,
+    "electronConfig": "1s² 2s² 2p⁶ 3s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      2
+    ],
+    "description": "가벼운 구조용 금속이자 엽록소의 중심 원자다."
+  },
+  {
+    "number": 13,
+    "symbol": "Al",
+    "name": "알루미늄",
+    "nameEn": "Aluminium",
+    "aliases": [],
+    "mass": 26.982,
+    "category": "post",
+    "state": "solid",
+    "period": 3,
+    "group": 13,
+    "row": 3,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      3
+    ],
+    "description": "가볍고 녹슬지 않는다. 캔과 창틀에 흔히 쓰인다."
+  },
+  {
+    "number": 14,
+    "symbol": "Si",
+    "name": "규소",
+    "nameEn": "Silicon",
+    "aliases": [
+      "실리콘"
+    ],
+    "mass": 28.085,
+    "category": "metalloid",
+    "state": "solid",
+    "period": 3,
+    "group": 14,
+    "row": 3,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      4
+    ],
+    "description": "반도체와 유리의 핵심. 지각에서 산소 다음으로 많다."
+  },
+  {
+    "number": 15,
+    "symbol": "P",
+    "name": "인",
+    "nameEn": "Phosphorus",
+    "aliases": [],
+    "mass": 30.974,
+    "category": "nonmetal",
+    "state": "solid",
+    "period": 3,
+    "group": 15,
+    "row": 3,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p³",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 3
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      5
+    ],
+    "description": "DNA와 뼈에 들어 있다. 성냥 머리의 재료이기도 하다."
+  },
+  {
+    "number": 16,
+    "symbol": "S",
+    "name": "황",
+    "nameEn": "Sulfur",
+    "aliases": [
+      "유황"
+    ],
+    "mass": 32.06,
+    "category": "nonmetal",
+    "state": "solid",
+    "period": 3,
+    "group": 16,
+    "row": 3,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁴",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 4
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      6
+    ],
+    "description": "노란 고체로 화산 근처에서 발견된다. 황산의 원료다."
+  },
+  {
+    "number": 17,
+    "symbol": "Cl",
+    "name": "염소",
+    "nameEn": "Chlorine",
+    "aliases": [],
+    "mass": 35.45,
+    "category": "halogen",
+    "state": "gas",
+    "period": 3,
+    "group": 17,
+    "row": 3,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁵",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 5
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      7
+    ],
+    "description": "수돗물 소독에 쓰이는 자극성 기체. 소금의 나머지 절반이다."
+  },
+  {
+    "number": 18,
+    "symbol": "Ar",
+    "name": "아르곤",
+    "nameEn": "Argon",
+    "aliases": [],
+    "mass": 39.948,
+    "category": "noble",
+    "state": "gas",
+    "period": 3,
+    "group": 18,
+    "row": 3,
+    "col": 18,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      8
+    ],
+    "description": "공기 중 세 번째로 많은 기체. 용접 보호 기체로 쓴다."
+  },
+  {
+    "number": 19,
+    "symbol": "K",
+    "name": "칼륨",
+    "nameEn": "Potassium",
+    "aliases": [
+      "포타슘"
+    ],
+    "mass": 39.098,
+    "category": "alkali",
+    "state": "solid",
+    "period": 4,
+    "group": 1,
+    "row": 4,
+    "col": 1,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "description": "세포 활동에 꼭 필요한 금속. 바나나에 많다."
+  },
+  {
+    "number": 20,
+    "symbol": "Ca",
+    "name": "칼슘",
+    "nameEn": "Calcium",
+    "aliases": [],
+    "mass": 40.078,
+    "category": "alkaline",
+    "state": "solid",
+    "period": 4,
+    "group": 2,
+    "row": 4,
+    "col": 2,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "description": "뼈와 이의 주성분. 석회암과 조개껍데기에도 들어 있다."
+  },
+  {
+    "number": 21,
+    "symbol": "Sc",
+    "name": "스칸듐",
+    "nameEn": "Scandium",
+    "aliases": [],
+    "mass": 44.956,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 3,
+    "row": 4,
+    "col": 3,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      9,
+      2
+    ],
+    "description": "가벼운 고성능 합금에 쓰이는 희귀 금속이다."
+  },
+  {
+    "number": 22,
+    "symbol": "Ti",
+    "name": "타이타늄",
+    "nameEn": "Titanium",
+    "aliases": [
+      "티타늄"
+    ],
+    "mass": 47.867,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 4,
+    "row": 4,
+    "col": 4,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d² 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "description": "강철만큼 튼튼하면서 훨씬 가볍다. 인공관절에 쓰인다."
+  },
+  {
+    "number": 23,
+    "symbol": "V",
+    "name": "바나듐",
+    "nameEn": "Vanadium",
+    "aliases": [],
+    "mass": 50.942,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 5,
+    "row": 4,
+    "col": 5,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d³ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 3
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      11,
+      2
+    ],
+    "description": "강철을 질기게 만드는 첨가 금속이다."
+  },
+  {
+    "number": 24,
+    "symbol": "Cr",
+    "name": "크로뮴",
+    "nameEn": "Chromium",
+    "aliases": [
+      "크롬"
+    ],
+    "mass": 51.996,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 6,
+    "row": 4,
+    "col": 6,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 5
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      13,
+      1
+    ],
+    "description": "스테인리스강을 녹슬지 않게 해 주는 금속이다."
+  },
+  {
+    "number": 25,
+    "symbol": "Mn",
+    "name": "망가니즈",
+    "nameEn": "Manganese",
+    "aliases": [
+      "망간"
+    ],
+    "mass": 54.938,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 7,
+    "row": 4,
+    "col": 7,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 5
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      13,
+      2
+    ],
+    "description": "건전지와 강철에 들어가는 금속이다."
+  },
+  {
+    "number": 26,
+    "symbol": "Fe",
+    "name": "철",
+    "nameEn": "Iron",
+    "aliases": [],
+    "mass": 55.845,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 8,
+    "row": 4,
+    "col": 8,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "description": "가장 널리 쓰이는 금속이자 혈액 헤모글로빈의 중심이다."
+  },
+  {
+    "number": 27,
+    "symbol": "Co",
+    "name": "코발트",
+    "nameEn": "Cobalt",
+    "aliases": [],
+    "mass": 58.933,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 9,
+    "row": 4,
+    "col": 9,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁷ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 7
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      15,
+      2
+    ],
+    "description": "푸른 안료와 리튬이온 배터리 양극재에 쓰인다."
+  },
+  {
+    "number": 28,
+    "symbol": "Ni",
+    "name": "니켈",
+    "nameEn": "Nickel",
+    "aliases": [],
+    "mass": 58.693,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 10,
+    "row": 4,
+    "col": 10,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁸ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 8
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      16,
+      2
+    ],
+    "description": "동전과 스테인리스강에 들어가는 은백색 금속이다."
+  },
+  {
+    "number": 29,
+    "symbol": "Cu",
+    "name": "구리",
+    "nameEn": "Copper",
+    "aliases": [
+      "동"
+    ],
+    "mass": 63.546,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 11,
+    "row": 4,
+    "col": 11,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "description": "전기가 아주 잘 통해 전선에 쓰인다."
+  },
+  {
+    "number": 30,
+    "symbol": "Zn",
+    "name": "아연",
+    "nameEn": "Zinc",
+    "aliases": [],
+    "mass": 65.38,
+    "category": "transition",
+    "state": "solid",
+    "period": 4,
+    "group": 12,
+    "row": 4,
+    "col": 12,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "description": "철의 부식을 막는 도금에 쓰인다. 면역에도 필요하다."
+  },
+  {
+    "number": 31,
+    "symbol": "Ga",
+    "name": "갈륨",
+    "nameEn": "Gallium",
+    "aliases": [],
+    "mass": 69.723,
+    "category": "post",
+    "state": "solid",
+    "period": 4,
+    "group": 13,
+    "row": 4,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      3
+    ],
+    "description": "손바닥 위에서 녹는 금속. LED 반도체 재료다."
+  },
+  {
+    "number": 32,
+    "symbol": "Ge",
+    "name": "저마늄",
+    "nameEn": "Germanium",
+    "aliases": [
+      "게르마늄"
+    ],
+    "mass": 72.63,
+    "category": "metalloid",
+    "state": "solid",
+    "period": 4,
+    "group": 14,
+    "row": 4,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "description": "초기 트랜지스터의 재료. 지금은 광섬유에 쓰인다."
+  },
+  {
+    "number": 33,
+    "symbol": "As",
+    "name": "비소",
+    "nameEn": "Arsenic",
+    "aliases": [],
+    "mass": 74.922,
+    "category": "metalloid",
+    "state": "solid",
+    "period": 4,
+    "group": 15,
+    "row": 4,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p³",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 3
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      5
+    ],
+    "description": "독성이 강한 준금속. 반도체 도핑에도 쓰인다."
+  },
+  {
+    "number": 34,
+    "symbol": "Se",
+    "name": "셀레늄",
+    "nameEn": "Selenium",
+    "aliases": [],
+    "mass": 78.971,
+    "category": "nonmetal",
+    "state": "solid",
+    "period": 4,
+    "group": 16,
+    "row": 4,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 4
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "description": "빛을 받으면 전기가 잘 통한다. 복사기에 쓰였다."
+  },
+  {
+    "number": 35,
+    "symbol": "Br",
+    "name": "브로민",
+    "nameEn": "Bromine",
+    "aliases": [
+      "브롬"
+    ],
+    "mass": 79.904,
+    "category": "halogen",
+    "state": "liquid",
+    "period": 4,
+    "group": 17,
+    "row": 4,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 5
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "description": "상온에서 액체인 두 원소 중 하나. 붉은 갈색이다."
+  },
+  {
+    "number": 36,
+    "symbol": "Kr",
+    "name": "크립톤",
+    "nameEn": "Krypton",
+    "aliases": [],
+    "mass": 83.798,
+    "category": "noble",
+    "state": "gas",
+    "period": 4,
+    "group": 18,
+    "row": 4,
+    "col": 18,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "description": "고성능 조명에 쓰이는 비활성 기체다."
+  },
+  {
+    "number": 37,
+    "symbol": "Rb",
+    "name": "루비듐",
+    "nameEn": "Rubidium",
+    "aliases": [],
+    "mass": 85.468,
+    "category": "alkali",
+    "state": "solid",
+    "period": 5,
+    "group": 1,
+    "row": 5,
+    "col": 1,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 5s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
+    "description": "원자시계와 연구용으로 쓰이는 알칼리 금속이다."
+  },
+  {
+    "number": 38,
+    "symbol": "Sr",
+    "name": "스트론튬",
+    "nameEn": "Strontium",
+    "aliases": [],
+    "mass": 87.62,
+    "category": "alkaline",
+    "state": "solid",
+    "period": 5,
+    "group": 2,
+    "row": 5,
+    "col": 2,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 5s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "description": "불꽃놀이의 붉은색을 내는 금속이다."
+  },
+  {
+    "number": 39,
+    "symbol": "Y",
+    "name": "이트륨",
+    "nameEn": "Yttrium",
+    "aliases": [],
+    "mass": 88.906,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 3,
+    "row": 5,
+    "col": 3,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹ 5s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
+    "description": "LED 형광체와 초전도체에 쓰인다."
+  },
+  {
+    "number": 40,
+    "symbol": "Zr",
+    "name": "지르코늄",
+    "nameEn": "Zirconium",
+    "aliases": [],
+    "mass": 91.224,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 4,
+    "row": 5,
+    "col": 4,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d² 5s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
+    "description": "부식에 강해 원자로 부품에 쓰인다."
+  },
+  {
+    "number": 41,
+    "symbol": "Nb",
+    "name": "나이오븀",
+    "nameEn": "Niobium",
+    "aliases": [
+      "니오브"
+    ],
+    "mass": 92.906,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 5,
+    "row": 5,
+    "col": 5,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁴ 5s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 4
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "description": "초전도 자석에 쓰이는 금속이다."
+  },
+  {
+    "number": 42,
+    "symbol": "Mo",
+    "name": "몰리브데넘",
+    "nameEn": "Molybdenum",
+    "aliases": [
+      "몰리브덴"
+    ],
+    "mass": 95.95,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 6,
+    "row": 5,
+    "col": 6,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁵ 5s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 5
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ],
+    "description": "고온에 견디는 강철 합금 재료다."
+  },
+  {
+    "number": 43,
+    "symbol": "Tc",
+    "name": "테크네튬",
+    "nameEn": "Technetium",
+    "aliases": [],
+    "mass": 98,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 7,
+    "row": 5,
+    "col": 7,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁵ 5s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 5
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
+    "description": "인공으로 처음 만들어진 원소. 의료 영상에 쓰인다."
+  },
+  {
+    "number": 44,
+    "symbol": "Ru",
+    "name": "루테늄",
+    "nameEn": "Ruthenium",
+    "aliases": [],
+    "mass": 101.07,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 8,
+    "row": 5,
+    "col": 8,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁷ 5s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 7
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "description": "전자 접점과 촉매에 쓰이는 백금족 금속이다."
+  },
+  {
+    "number": 45,
+    "symbol": "Rh",
+    "name": "로듐",
+    "nameEn": "Rhodium",
+    "aliases": [],
+    "mass": 102.91,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 9,
+    "row": 5,
+    "col": 9,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁸ 5s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 8
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
+    "description": "자동차 배기가스 정화 촉매의 핵심이다."
+  },
+  {
+    "number": 46,
+    "symbol": "Pd",
+    "name": "팔라듐",
+    "nameEn": "Palladium",
+    "aliases": [],
+    "mass": 106.42,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 10,
+    "row": 5,
+    "col": 10,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18
+    ],
+    "description": "수소를 잘 흡수한다. 촉매 변환기에 쓰인다."
+  },
+  {
+    "number": 47,
+    "symbol": "Ag",
+    "name": "은",
+    "nameEn": "Silver",
+    "aliases": [],
+    "mass": 107.87,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 11,
+    "row": 5,
+    "col": 11,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
+    "description": "모든 금속 중 전기와 열을 가장 잘 전달한다."
+  },
+  {
+    "number": 48,
+    "symbol": "Cd",
+    "name": "카드뮴",
+    "nameEn": "Cadmium",
+    "aliases": [],
+    "mass": 112.41,
+    "category": "transition",
+    "state": "solid",
+    "period": 5,
+    "group": 12,
+    "row": 5,
+    "col": 12,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
+    "description": "독성이 있는 금속. 예전 충전지에 쓰였다."
+  },
+  {
+    "number": 49,
+    "symbol": "In",
+    "name": "인듐",
+    "nameEn": "Indium",
+    "aliases": [],
+    "mass": 114.82,
+    "category": "post",
+    "state": "solid",
+    "period": 5,
+    "group": 13,
+    "row": 5,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
+    "description": "터치스크린 투명 전극(ITO)의 재료다."
+  },
+  {
+    "number": 50,
+    "symbol": "Sn",
+    "name": "주석",
+    "nameEn": "Tin",
+    "aliases": [],
+    "mass": 118.71,
+    "category": "post",
+    "state": "solid",
+    "period": 5,
+    "group": 14,
+    "row": 5,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
+    "description": "청동의 재료이자 납땜에 쓰인다."
+  },
+  {
+    "number": 51,
+    "symbol": "Sb",
+    "name": "안티모니",
+    "nameEn": "Antimony",
+    "aliases": [
+      "안티몬"
+    ],
+    "mass": 121.76,
+    "category": "metalloid",
+    "state": "solid",
+    "period": 5,
+    "group": 15,
+    "row": 5,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p³",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 3
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
+    "description": "난연제와 납 합금에 쓰이는 준금속이다."
+  },
+  {
+    "number": 52,
+    "symbol": "Te",
+    "name": "텔루륨",
+    "nameEn": "Tellurium",
+    "aliases": [],
+    "mass": 127.6,
+    "category": "metalloid",
+    "state": "solid",
+    "period": 5,
+    "group": 16,
+    "row": 5,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁴",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 4
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ],
+    "description": "태양전지와 열전 소자에 쓰인다."
+  },
+  {
+    "number": 53,
+    "symbol": "I",
+    "name": "아이오딘",
+    "nameEn": "Iodine",
+    "aliases": [
+      "요오드"
+    ],
+    "mass": 126.9,
+    "category": "halogen",
+    "state": "solid",
+    "period": 5,
+    "group": 17,
+    "row": 5,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁵",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 5
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
+    "description": "갑상샘 호르몬에 필요하다. 소독약으로도 쓰인다."
+  },
+  {
+    "number": 54,
+    "symbol": "Xe",
+    "name": "제논",
+    "nameEn": "Xenon",
+    "aliases": [
+      "크세논"
+    ],
+    "mass": 131.29,
+    "category": "noble",
+    "state": "gas",
+    "period": 5,
+    "group": 18,
+    "row": 5,
+    "col": 18,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁶",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
+    "description": "자동차 헤드램프와 이온 추진기에 쓰인다."
+  },
+  {
+    "number": 55,
+    "symbol": "Cs",
+    "name": "세슘",
+    "nameEn": "Caesium",
+    "aliases": [],
+    "mass": 132.91,
+    "category": "alkali",
+    "state": "solid",
+    "period": 6,
+    "group": 1,
+    "row": 6,
+    "col": 1,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁶ 6s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
+    "description": "1초의 길이를 정하는 원자시계의 기준 원소다."
+  },
+  {
+    "number": 56,
+    "symbol": "Ba",
+    "name": "바륨",
+    "nameEn": "Barium",
+    "aliases": [],
+    "mass": 137.33,
+    "category": "alkaline",
+    "state": "solid",
+    "period": 6,
+    "group": 2,
+    "row": 6,
+    "col": 2,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "description": "위장 X선 촬영 조영제로 쓰인다."
+  },
+  {
+    "number": 57,
+    "symbol": "La",
+    "name": "란타넘",
+    "nameEn": "Lanthanum",
+    "aliases": [
+      "란탄"
+    ],
+    "mass": 138.91,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 3,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s² 5p⁶ 5d¹ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
+    "description": "란타넘족의 첫 원소. 카메라 렌즈 유리에 쓰인다."
+  },
+  {
+    "number": 58,
+    "symbol": "Ce",
+    "name": "세륨",
+    "nameEn": "Cerium",
+    "aliases": [],
+    "mass": 140.12,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 4,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹ 5s² 5p⁶ 5d¹ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 1
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
+    "description": "가장 흔한 희토류. 유리 연마제와 촉매에 쓰인다."
+  },
+  {
+    "number": 59,
+    "symbol": "Pr",
+    "name": "프라세오디뮴",
+    "nameEn": "Praseodymium",
+    "aliases": [],
+    "mass": 140.91,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 5,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f³ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 3
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
+    "description": "강력한 자석과 용접용 보안경 유리에 쓰인다."
+  },
+  {
+    "number": 60,
+    "symbol": "Nd",
+    "name": "네오디뮴",
+    "nameEn": "Neodymium",
+    "aliases": [],
+    "mass": 144.24,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 6,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁴ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 4
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
+    "description": "세상에서 가장 강한 영구자석의 재료다."
+  },
+  {
+    "number": 61,
+    "symbol": "Pm",
+    "name": "프로메튬",
+    "nameEn": "Promethium",
+    "aliases": [],
+    "mass": 145,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 7,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁵ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 5
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
+    "description": "자연에 거의 없는 방사성 희토류다."
+  },
+  {
+    "number": 62,
+    "symbol": "Sm",
+    "name": "사마륨",
+    "nameEn": "Samarium",
+    "aliases": [],
+    "mass": 150.36,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 8,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁶ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
+    "description": "고온에서도 힘을 유지하는 자석 재료다."
+  },
+  {
+    "number": 63,
+    "symbol": "Eu",
+    "name": "유로퓸",
+    "nameEn": "Europium",
+    "aliases": [],
+    "mass": 151.96,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 9,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁷ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 7
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
+    "description": "디스플레이의 붉은 형광체로 쓰인다."
+  },
+  {
+    "number": 64,
+    "symbol": "Gd",
+    "name": "가돌리늄",
+    "nameEn": "Gadolinium",
+    "aliases": [],
+    "mass": 157.25,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 10,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁷ 5s² 5p⁶ 5d¹ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 7
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
+    "description": "MRI 조영제에 쓰이는 희토류다."
+  },
+  {
+    "number": 65,
+    "symbol": "Tb",
+    "name": "터븀",
+    "nameEn": "Terbium",
+    "aliases": [],
+    "mass": 158.93,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 11,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁹ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 9
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ],
+    "description": "녹색 형광체와 자기변형 소재에 쓰인다."
+  },
+  {
+    "number": 66,
+    "symbol": "Dy",
+    "name": "디스프로슘",
+    "nameEn": "Dysprosium",
+    "aliases": [],
+    "mass": 162.5,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 12,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁰ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
+    "description": "고온용 자석에 첨가되는 희토류다."
+  },
+  {
+    "number": 67,
+    "symbol": "Ho",
+    "name": "홀뮴",
+    "nameEn": "Holmium",
+    "aliases": [],
+    "mass": 164.93,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹¹ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 11
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
+    "description": "의료용 레이저에 쓰인다."
+  },
+  {
+    "number": 68,
+    "symbol": "Er",
+    "name": "어븀",
+    "nameEn": "Erbium",
+    "aliases": [],
+    "mass": 167.26,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹² 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 12
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
+    "description": "광섬유 증폭기의 핵심 원소다."
+  },
+  {
+    "number": 69,
+    "symbol": "Tm",
+    "name": "툴륨",
+    "nameEn": "Thulium",
+    "aliases": [],
+    "mass": 168.93,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹³ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 13
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
+    "description": "휴대용 X선 장치에 쓰이는 희귀 희토류다."
+  },
+  {
+    "number": 70,
+    "symbol": "Yb",
+    "name": "이터븀",
+    "nameEn": "Ytterbium",
+    "aliases": [],
+    "mass": 173.05,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
+    "description": "초정밀 광격자 원자시계에 쓰인다."
+  },
+  {
+    "number": 71,
+    "symbol": "Lu",
+    "name": "루테튬",
+    "nameEn": "Lutetium",
+    "aliases": [],
+    "mass": 174.97,
+    "category": "lanthanide",
+    "state": "solid",
+    "period": 6,
+    "group": null,
+    "row": 9,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ],
+    "description": "란타넘족의 마지막 원소. PET 검출기에 쓰인다."
+  },
+  {
+    "number": 72,
+    "symbol": "Hf",
+    "name": "하프늄",
+    "nameEn": "Hafnium",
+    "aliases": [],
+    "mass": 178.49,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 4,
+    "row": 6,
+    "col": 4,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d² 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
+    "description": "원자로 제어봉과 최신 반도체 절연막에 쓰인다."
+  },
+  {
+    "number": 73,
+    "symbol": "Ta",
+    "name": "탄탈럼",
+    "nameEn": "Tantalum",
+    "aliases": [
+      "탄탈"
+    ],
+    "mass": 180.95,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 5,
+    "row": 6,
+    "col": 5,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d³ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 3
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
+    "description": "소형 커패시터의 필수 금속이다."
+  },
+  {
+    "number": 74,
+    "symbol": "W",
+    "name": "텅스텐",
+    "nameEn": "Tungsten",
+    "aliases": [],
+    "mass": 183.84,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 6,
+    "row": 6,
+    "col": 6,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d⁴ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 4
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
+    "description": "녹는점이 가장 높은 금속. 백열전구 필라멘트였다."
+  },
+  {
+    "number": 75,
+    "symbol": "Re",
+    "name": "레늄",
+    "nameEn": "Rhenium",
+    "aliases": [],
+    "mass": 186.21,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 7,
+    "row": 6,
+    "col": 7,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d⁵ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 5
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
+    "description": "제트엔진 터빈 날개 합금에 쓰인다."
+  },
+  {
+    "number": 76,
+    "symbol": "Os",
+    "name": "오스뮴",
+    "nameEn": "Osmium",
+    "aliases": [],
+    "mass": 190.23,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 8,
+    "row": 6,
+    "col": 8,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d⁶ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
+    "description": "가장 밀도가 큰 원소 중 하나다."
+  },
+  {
+    "number": 77,
+    "symbol": "Ir",
+    "name": "이리듐",
+    "nameEn": "Iridium",
+    "aliases": [],
+    "mass": 192.22,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 9,
+    "row": 6,
+    "col": 9,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d⁷ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 7
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
+    "description": "부식에 가장 강한 금속. 점화 플러그에 쓰인다."
+  },
+  {
+    "number": 78,
+    "symbol": "Pt",
+    "name": "백금",
+    "nameEn": "Platinum",
+    "aliases": [
+      "플래티넘"
+    ],
+    "mass": 195.08,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 10,
+    "row": 6,
+    "col": 10,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d⁹ 6s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 9
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
+    "description": "변하지 않는 귀금속이자 뛰어난 촉매다."
+  },
+  {
+    "number": 79,
+    "symbol": "Au",
+    "name": "금",
+    "nameEn": "Gold",
+    "aliases": [],
+    "mass": 196.97,
+    "category": "transition",
+    "state": "solid",
+    "period": 6,
+    "group": 11,
+    "row": 6,
+    "col": 11,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
+    "description": "변색되지 않는 귀금속. 전자 접점에도 쓰인다."
+  },
+  {
+    "number": 80,
+    "symbol": "Hg",
+    "name": "수은",
+    "nameEn": "Mercury",
+    "aliases": [],
+    "mass": 200.59,
+    "category": "transition",
+    "state": "liquid",
+    "period": 6,
+    "group": 12,
+    "row": 6,
+    "col": 12,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
+    "description": "상온에서 액체인 유일한 금속이다."
+  },
+  {
+    "number": 81,
+    "symbol": "Tl",
+    "name": "탈륨",
+    "nameEn": "Thallium",
+    "aliases": [],
+    "mass": 204.38,
+    "category": "post",
+    "state": "solid",
+    "period": 6,
+    "group": 13,
+    "row": 6,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "description": "독성이 매우 강한 금속이다."
+  },
+  {
+    "number": 82,
+    "symbol": "Pb",
+    "name": "납",
+    "nameEn": "Lead",
+    "aliases": [],
+    "mass": 207.2,
+    "category": "post",
+    "state": "solid",
+    "period": 6,
+    "group": 14,
+    "row": 6,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "description": "무겁고 방사선을 잘 막는다. 자동차 배터리에 쓰인다."
+  },
+  {
+    "number": 83,
+    "symbol": "Bi",
+    "name": "비스무트",
+    "nameEn": "Bismuth",
+    "aliases": [
+      "비스무스"
+    ],
+    "mass": 208.98,
+    "category": "post",
+    "state": "solid",
+    "period": 6,
+    "group": 15,
+    "row": 6,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p³",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 3
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
+    "description": "무지개빛 결정을 만드는 무거운 금속이다."
+  },
+  {
+    "number": 84,
+    "symbol": "Po",
+    "name": "폴로늄",
+    "nameEn": "Polonium",
+    "aliases": [],
+    "mass": 209,
+    "category": "post",
+    "state": "solid",
+    "period": 6,
+    "group": 16,
+    "row": 6,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁴",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 4
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
+    "description": "퀴리 부부가 발견한 강한 방사성 원소다."
+  },
+  {
+    "number": 85,
+    "symbol": "At",
+    "name": "아스타틴",
+    "nameEn": "Astatine",
+    "aliases": [],
+    "mass": 210,
+    "category": "halogen",
+    "state": "solid",
+    "period": 6,
+    "group": 17,
+    "row": 6,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁵",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 5
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
+    "description": "자연에 가장 적게 존재하는 원소다."
+  },
+  {
+    "number": 86,
+    "symbol": "Rn",
+    "name": "라돈",
+    "nameEn": "Radon",
+    "aliases": [],
+    "mass": 222,
+    "category": "noble",
+    "state": "gas",
+    "period": 6,
+    "group": 18,
+    "row": 6,
+    "col": 18,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁶",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
+    "description": "땅에서 새어 나오는 방사성 기체다."
+  },
+  {
+    "number": 87,
+    "symbol": "Fr",
+    "name": "프랑슘",
+    "nameEn": "Francium",
+    "aliases": [],
+    "mass": 223,
+    "category": "alkali",
+    "state": "solid",
+    "period": 7,
+    "group": 1,
+    "row": 7,
+    "col": 1,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁶ 7s¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
+    "description": "반응성이 가장 큰 금속. 극히 불안정하다."
+  },
+  {
+    "number": 88,
+    "symbol": "Ra",
+    "name": "라듐",
+    "nameEn": "Radium",
+    "aliases": [],
+    "mass": 226,
+    "category": "alkaline",
+    "state": "solid",
+    "period": 7,
+    "group": 2,
+    "row": 7,
+    "col": 2,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "description": "퀴리 부인이 발견한 빛나는 방사성 금속이다."
+  },
+  {
+    "number": 89,
+    "symbol": "Ac",
+    "name": "악티늄",
+    "nameEn": "Actinium",
+    "aliases": [],
+    "mass": 227,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 3,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁶ 6d¹ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
+    "description": "악티늄족의 첫 원소. 어둠 속에서 푸르게 빛난다."
+  },
+  {
+    "number": 90,
+    "symbol": "Th",
+    "name": "토륨",
+    "nameEn": "Thorium",
+    "aliases": [],
+    "mass": 232.04,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 4,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 6s² 6p⁶ 6d² 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
+    "description": "차세대 원자로 연료 후보로 꼽힌다."
+  },
+  {
+    "number": 91,
+    "symbol": "Pa",
+    "name": "프로트악티늄",
+    "nameEn": "Protactinium",
+    "aliases": [],
+    "mass": 231.04,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 5,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f² 6s² 6p⁶ 6d¹ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
+    "description": "희귀하고 다루기 어려운 방사성 금속이다."
+  },
+  {
+    "number": 92,
+    "symbol": "U",
+    "name": "우라늄",
+    "nameEn": "Uranium",
+    "aliases": [],
+    "mass": 238.03,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 6,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f³ 6s² 6p⁶ 6d¹ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 3
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "description": "원자력 발전의 연료가 되는 원소다."
+  },
+  {
+    "number": 93,
+    "symbol": "Np",
+    "name": "넵투늄",
+    "nameEn": "Neptunium",
+    "aliases": [],
+    "mass": 237,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 7,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f⁴ 6s² 6p⁶ 6d¹ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 4
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "description": "우라늄 다음으로 만들어진 첫 초우라늄 원소다."
+  },
+  {
+    "number": 94,
+    "symbol": "Pu",
+    "name": "플루토늄",
+    "nameEn": "Plutonium",
+    "aliases": [],
+    "mass": 244,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 8,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f⁶ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
+    "description": "핵연료와 우주 탐사선 전원에 쓰인다."
+  },
+  {
+    "number": 95,
+    "symbol": "Am",
+    "name": "아메리슘",
+    "nameEn": "Americium",
+    "aliases": [],
+    "mass": 243,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 9,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f⁷ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 7
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
+    "description": "화재감지기에 실제로 들어가는 방사성 원소다."
+  },
+  {
+    "number": 96,
+    "symbol": "Cm",
+    "name": "퀴륨",
+    "nameEn": "Curium",
+    "aliases": [],
+    "mass": 247,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 10,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f⁷ 6s² 6p⁶ 6d¹ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 7
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 1
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
+    "description": "퀴리 부부의 이름을 딴 인공 원소다."
+  },
+  {
+    "number": 97,
+    "symbol": "Bk",
+    "name": "버클륨",
+    "nameEn": "Berkelium",
+    "aliases": [],
+    "mass": 247,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 11,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f⁹ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 9
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
+    "description": "버클리 대학에서 처음 만들어졌다."
+  },
+  {
+    "number": 98,
+    "symbol": "Cf",
+    "name": "캘리포늄",
+    "nameEn": "Californium",
+    "aliases": [],
+    "mass": 251,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 12,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁰ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 10
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
+    "description": "강력한 중성자원으로 쓰이는 인공 원소다."
+  },
+  {
+    "number": 99,
+    "symbol": "Es",
+    "name": "아인슈타이늄",
+    "nameEn": "Einsteinium",
+    "aliases": [],
+    "mass": 252,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹¹ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 11
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
+    "description": "수소폭탄 실험 잔해에서 발견되었다."
+  },
+  {
+    "number": 100,
+    "symbol": "Fm",
+    "name": "페르뮴",
+    "nameEn": "Fermium",
+    "aliases": [],
+    "mass": 257,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹² 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 12
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ],
+    "description": "물리학자 페르미의 이름을 땄다."
+  },
+  {
+    "number": 101,
+    "symbol": "Md",
+    "name": "멘델레븀",
+    "nameEn": "Mendelevium",
+    "aliases": [],
+    "mass": 258,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹³ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 13
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
+    "description": "주기율표를 만든 멘델레예프의 이름을 땄다."
+  },
+  {
+    "number": 102,
+    "symbol": "No",
+    "name": "노벨륨",
+    "nameEn": "Nobelium",
+    "aliases": [],
+    "mass": 259,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
+    "description": "노벨의 이름을 딴 인공 원소다."
+  },
+  {
+    "number": 103,
+    "symbol": "Lr",
+    "name": "로렌슘",
+    "nameEn": "Lawrencium",
+    "aliases": [],
+    "mass": 266,
+    "category": "actinide",
+    "state": "solid",
+    "period": 7,
+    "group": null,
+    "row": 10,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 7s² 7p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
+    "description": "악티늄족의 마지막 원소다."
+  },
+  {
+    "number": 104,
+    "symbol": "Rf",
+    "name": "러더포듐",
+    "nameEn": "Rutherfordium",
+    "aliases": [],
+    "mass": 267,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 4,
+    "row": 7,
+    "col": 4,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d² 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ],
+    "description": "원자핵을 발견한 러더퍼드의 이름을 땄다."
+  },
+  {
+    "number": 105,
+    "symbol": "Db",
+    "name": "더브늄",
+    "nameEn": "Dubnium",
+    "aliases": [],
+    "mass": 268,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 5,
+    "row": 7,
+    "col": 5,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d³ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 3
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ],
+    "description": "러시아 두브나 연구소의 이름을 땄다."
+  },
+  {
+    "number": 106,
+    "symbol": "Sg",
+    "name": "시보귬",
+    "nameEn": "Seaborgium",
+    "aliases": [],
+    "mass": 269,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 6,
+    "row": 7,
+    "col": 6,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d⁴ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 4
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ],
+    "description": "초우라늄 원소를 여럿 만든 시보그의 이름을 땄다."
+  },
+  {
+    "number": 107,
+    "symbol": "Bh",
+    "name": "보륨",
+    "nameEn": "Bohrium",
+    "aliases": [],
+    "mass": 270,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 7,
+    "row": 7,
+    "col": 7,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d⁵ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 5
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ],
+    "description": "원자 모형의 보어에서 이름을 땄다."
+  },
+  {
+    "number": 108,
+    "symbol": "Hs",
+    "name": "하슘",
+    "nameEn": "Hassium",
+    "aliases": [],
+    "mass": 269,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 8,
+    "row": 7,
+    "col": 8,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d⁶ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 6
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ],
+    "description": "독일 헤센 주의 라틴어 이름에서 땄다."
+  },
+  {
+    "number": 109,
+    "symbol": "Mt",
+    "name": "마이트너륨",
+    "nameEn": "Meitnerium",
+    "aliases": [],
+    "mass": 278,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 9,
+    "row": 7,
+    "col": 9,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d⁷ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 7
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ],
+    "description": "핵분열을 밝힌 마이트너의 이름을 땄다."
+  },
+  {
+    "number": 110,
+    "symbol": "Ds",
+    "name": "다름슈타튬",
+    "nameEn": "Darmstadtium",
+    "aliases": [],
+    "mass": 281,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 10,
+    "row": 7,
+    "col": 10,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d⁸ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 8
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      16,
+      2
+    ],
+    "description": "독일 다름슈타트에서 처음 만들어졌다."
+  },
+  {
+    "number": 111,
+    "symbol": "Rg",
+    "name": "뢴트게늄",
+    "nameEn": "Roentgenium",
+    "aliases": [],
+    "mass": 282,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 11,
+    "row": 7,
+    "col": 11,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d⁹ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 9
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      2
+    ],
+    "description": "X선을 발견한 뢴트겐의 이름을 땄다."
+  },
+  {
+    "number": 112,
+    "symbol": "Cn",
+    "name": "코페르니슘",
+    "nameEn": "Copernicium",
+    "aliases": [],
+    "mass": 285,
+    "category": "transition",
+    "state": "solid",
+    "period": 7,
+    "group": 12,
+    "row": 7,
+    "col": 12,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "description": "천문학자 코페르니쿠스의 이름을 땄다."
+  },
+  {
+    "number": 113,
+    "symbol": "Nh",
+    "name": "니호늄",
+    "nameEn": "Nihonium",
+    "aliases": [],
+    "mass": 286,
+    "category": "post",
+    "state": "solid",
+    "period": 7,
+    "group": 13,
+    "row": 7,
+    "col": 13,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s² 7p¹",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 1
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ],
+    "description": "일본에서 처음 만들어진 원소다."
+  },
+  {
+    "number": 114,
+    "symbol": "Fl",
+    "name": "플레로븀",
+    "nameEn": "Flerovium",
+    "aliases": [],
+    "mass": 289,
+    "category": "post",
+    "state": "solid",
+    "period": 7,
+    "group": 14,
+    "row": 7,
+    "col": 14,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s² 7p²",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 2
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ],
+    "description": "러시아 플료로프 연구소의 이름을 땄다."
+  },
+  {
+    "number": 115,
+    "symbol": "Mc",
+    "name": "모스코븀",
+    "nameEn": "Moscovium",
+    "aliases": [],
+    "mass": 290,
+    "category": "post",
+    "state": "solid",
+    "period": 7,
+    "group": 15,
+    "row": 7,
+    "col": 15,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s² 7p³",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 3
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ],
+    "description": "모스크바 지역의 이름을 땄다."
+  },
+  {
+    "number": 116,
+    "symbol": "Lv",
+    "name": "리버모륨",
+    "nameEn": "Livermorium",
+    "aliases": [],
+    "mass": 293,
+    "category": "post",
+    "state": "solid",
+    "period": 7,
+    "group": 16,
+    "row": 7,
+    "col": 16,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s² 7p⁴",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 4
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
+    ],
+    "description": "미국 리버모어 연구소의 이름을 땄다."
+  },
+  {
+    "number": 117,
+    "symbol": "Ts",
+    "name": "테네신",
+    "nameEn": "Tennessine",
+    "aliases": [],
+    "mass": 294,
+    "category": "halogen",
+    "state": "solid",
+    "period": 7,
+    "group": 17,
+    "row": 7,
+    "col": 17,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s² 7p⁵",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 5
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ],
+    "description": "미국 테네시 주의 이름을 땄다."
+  },
+  {
+    "number": 118,
+    "symbol": "Og",
+    "name": "오가네손",
+    "nameEn": "Oganesson",
+    "aliases": [],
+    "mass": 294,
+    "category": "noble",
+    "state": "solid",
+    "period": 7,
+    "group": 18,
+    "row": 7,
+    "col": 18,
+    "electronConfig": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f¹⁴ 5s² 5p⁶ 5d¹⁰ 5f¹⁴ 6s² 6p⁶ 6d¹⁰ 7s² 7p⁶",
+    "subshells": [
+      {
+        "shell": 1,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 2,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 3,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 3,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 4,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 4,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 4,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 5,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 5,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 5,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 5,
+        "orbital": "f",
+        "electrons": 14
+      },
+      {
+        "shell": 6,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 6,
+        "orbital": "p",
+        "electrons": 6
+      },
+      {
+        "shell": 6,
+        "orbital": "d",
+        "electrons": 10
+      },
+      {
+        "shell": 7,
+        "orbital": "s",
+        "electrons": 2
+      },
+      {
+        "shell": 7,
+        "orbital": "p",
+        "electrons": 6
+      }
+    ],
+    "shells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ],
+    "description": "현재까지 알려진 마지막 원소다."
+  }
+]
